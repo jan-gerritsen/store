@@ -27,6 +27,9 @@ services:
     environment:
       - WEBPACKER_DEV_SERVER_HOST=0.0.0.0
 
+  redis:
+    image: redis
+
   database:
     image: postgres 
     env_file:
