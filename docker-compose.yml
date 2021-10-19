@@ -21,7 +21,7 @@ services:
     ports:
       - 3035:3035 
     volumes:
-      - .:/usr/src/app 
+      - .:/usr/src/app
     env_file:
       - .env_dir/development/web
       - .env_dir/development/database 
